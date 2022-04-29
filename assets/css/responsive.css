@@ -1,7 +1,6 @@
 /* pc  */
 
 @media (min-width: 1024px) {
-
 }
 
 /* mobile */
@@ -12,13 +11,42 @@
   #nav > li {
     display: block;
   }
-  #nav li:first-child{
+  #nav li:first-child {
     display: inline-block;
+  }
+  #nav .subnav {
+    /* là giá trị mặc định kiểu bỏ đi positon */
+    position: initial;
+    background: #333;
+  }
+  #nav li a {
+    padding: 1px 24px;
+  }
+  #nav .subnav a {
+    color: white;
+    padding: 5px 40px;
+  }
+  #nav .subnav li:hover a{
+    color: #000;
+    background-color: #ccc;
+  }
+  #nav .subnav li:first-child{
+  display: block;
+  }
+  #header {
+    overflow: hidden;
   }
   #header .search-btn .search-icon {
     display: none;
   }
   .mobile-menu-btn {
     display: block;
+  }
+
+  #content .member-img{
+    width: 60%;
+  }
+  .s-col-full{
+    width: 100%;
   }
 }
