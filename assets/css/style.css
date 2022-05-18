@@ -76,6 +76,8 @@ html{
   display: inline-block;
   margin-top: 15px;
   border: none;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -233,6 +235,7 @@ body {
 .text-decoration {
   font-size: 15px;
   margin-top: 25px;
+  text-shadow: 0 0 1px #000;
 }
 
 #content .content-section {
